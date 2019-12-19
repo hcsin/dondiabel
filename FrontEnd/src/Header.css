@@ -1,0 +1,54 @@
+.desktop-header{
+    margin-top: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.hexagonlogo {
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    top: 50%;
+    margin-top: -11px;
+    
+}
+.icon-block{
+    display: inline-block;
+    position: relative;
+    padding: 10.5px 25px;
+}
+.left{
+    margin-right: 100px;
+}
+.right{
+    margin-left: 100px;
+}
+.menu-icon{    
+    color: rgba(255,255,255,.6);
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu-icon:hover{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+.menu-icon:focus{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+
+@media (max-width: 750px){
+.desktop-header{
+    display: none;
+}
+}

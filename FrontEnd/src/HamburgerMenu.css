@@ -1,0 +1,62 @@
+.m-menu{
+    display: block;
+    height: 80px;    
+}
+.m-menu-bar{
+    top: 0px;
+    position:absolute;
+    background: url('./components/images/afbeeldingen/DLjGsMPX4AE-0Sy-dark.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+    z-index: 2;
+}
+.m-hexagonlogo {
+    align-self: center;
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: 27px;
+    background: rgba(255,255,255,0); 
+    z-index: 3;
+}
+.m-menu-logo {
+    position: absolute;    
+    margin-left: 20px;
+    margin-top: 20px;
+    top: 0px;
+    width: 32px; 
+    background: rgba(255,255,255,0);
+    z-index: 3;  
+}
+.m-navigation{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 50px;  
+    text-align: left;
+    background: rgba(255,255,255,0); 
+}
+.m-navigation li{
+    margin-top: 30px;    
+    background: rgba(255,255,255,0); 
+}
+.m-menu-icon{
+    font-weight: 500;    
+    color: rgba(255,255,255,.6);    
+    background: rgba(255,255,255,0);   
+    text-decoration: none;
+    z-index: 2 !important;
+}
+.m-menu-icon:hover{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+@media (min-width:751px){
+.m-menu{
+    display:none;
+}
+
+}

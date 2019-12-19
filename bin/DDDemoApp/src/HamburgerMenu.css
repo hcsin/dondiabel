@@ -1,0 +1,43 @@
+.m-menu{
+    display: block;
+    background-color: red;
+}
+.m-hexagonlogo {
+    position: relative;
+    margin-left: 50%;
+    margin-top: 35px;
+    transform: translate(-50%, 0);
+    width: 114px;
+}
+.m-menu-logo {
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 32px;   
+}
+.m-navigation{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 50px;  
+    text-align: left;
+}
+.m-navigation li{
+    margin-top: 30px;
+}
+.m-menu-icon{
+    font-weight: 500;    
+    color: rgba(255,255,255,.6);    
+    text-decoration: none;
+}
+.m-menu-icon:hover{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+@media (min-width:751px){
+.m-menu{
+    display:none;
+}
+
+}

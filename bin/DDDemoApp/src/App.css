@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+* {
+    background-color: black;
+    background: url('./components/images/afbeeldingen/topbanner50.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: europa, Segoe UI;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#Hexagon_logo_vector {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 48px;   
+}
+.title{
+    text-align: center;
+}
+#register_block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    height: 320px;
+    background-color: rgba(255,255,255,0);
+}
+#fields {
+    padding-top: 30px;
+}
+.field {
+    color: black;
+    width: 290px;
+    height: 15px;
+    margin-top: 15px;
+    padding: 17px;
+    text-align: left;
+    font-size: 15px; 
+    background: rgba(255,255,255,1);
+    border-style: none;
+}
+#reset{
+    font-size: 20px;
+    text-align: center;
+}
+#send_email{
+    margin-top: 35px;
+    text-align: center;
+}
+#service_agreement {
+    margin-top: 10px;
+}
+#login {
+    text-align: center;
+    margin-top: 40px;
+}
+#login_padding{
+    padding-top: 49px;
+}
+.right_align {
+    text-align: right;
+    margin-top: 5px;
+}
+.button {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 136px;
+    height: 58px;
+    text-align: center; 
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+    border-style: solid;
+}
+
+@media (min-width: 751px){
+    body {
+        font-size: 15px;
+    }
+    #hexagonlogo {        
+        margin-top: 25px;
+        width: 216px;
+    }
+    #Hexagon_logo_Don_Diablo_vector {        
+        margin-top: 80px;
+        width: 68px;   
+    }
+    #register_block {
+        width: 380px;
+        height: 380px;
+    }
+    #fields {
+        padding-top: 60px;
+    }
+    .field {    
+        width: 380px;
+        height: 26px;
+        font-size: 17px;
+    }
+    #reset{
+        font-size: 30px;
+    }
+    #send_email{
+        padding-top: 4px;
+    }
+    #login {
+        padding-top: 20px;
+    }
+    .button {
+        width: 143px;
+        height: 61px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+}
